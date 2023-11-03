@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import {QaReport} from './QaReport'
 import { FsData } from './FsData'
+import FecthData from './FecthData'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       test
 <QaReport />
 <FsData />
+<FecthData />
     </main>
   )
 }

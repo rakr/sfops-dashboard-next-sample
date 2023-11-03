@@ -19,13 +19,13 @@ export default function FecthData() {
       <h1> Welcome to My blog gallery ssg</h1>
       <div>
       {
-        state.map((e) => (
+        state.map((e:any) => (
             <a key={e.id}>
             <h2> {e.title} &rarr;</h2>
             <img src={e.image} width={250} height={200}/>
             <p>{e.description}</p>
             <h3>${e.price}</h3>
-        </a>
+            </a>
         ))
         }
       </div>
